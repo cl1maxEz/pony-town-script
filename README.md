@@ -4,42 +4,26 @@
 [![Telegram](https://img.shields.io/badge/Telegram-PonyPubahi-blue)](https://t.me/PonyPubahi)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-> 🦄 **Pubahi Script** — мощный скрипт для pony.town с авто-спамом, анти-AFK, поиском по чату и 14 цветовыми темами!
+> 🦄 **Pubahi Script** — powerful script for pony.town with auto-spam, anti-AFK, chat search and 14 color themes!
 
 ---
 
-## 🔥 Возможности
+## 🔥 Features
 
-- 🍕 **Авто-спам в чат** — 3 режима скорости (Набор, Медленный, Спам)
-- 💤 **Анти-AFK** — защита от кика с настраиваемым интервалом
-- 🔍 **Поиск по чату** — фильтрация и подсветка сообщений
-- 🎨 **14 цветовых тем** — Радуга, Неон и 12 цветов
-- 💫 **Неоновая подсветка** — светящиеся кнопки
-- 🌈 **Плавная радужная анимация** — переливающиеся цвета
-- 🌐 **Два языка** — Русский и English
-- 👁 **Скрытие интерфейса** — одна кнопка скрывает всё
-- ⚙ **Гибкие настройки** — язык, тема, интервал Анти-AFK
-- 💾 **Сохранение настроек** — всё сохраняется в localStorage
+- 🍕 **Auto-spam in chat** — 3 speed modes (Classic, Slow, Spam)
+- 💤 **Anti-AFK** — kick protection with adjustable interval
+- 🔍 **Chat search** — message filtering and highlighting
+- 🎨 **14 color themes** — Rainbow, Neon and 12 colors
+- 💫 **Neon glow** — glowing buttons
+- 🌈 **Smooth rainbow animation** — flowing colors
+- 🌐 **Two languages** — Russian and English
+- 👁 **Hide interface** — one button hides everything
+- ⚙ **Flexible settings** — language, theme, anti-AFK interval
+- 💾 **Settings saved** — everything stored in localStorage
 
 ---
 
-## 📥 Установка
-
-### 🇷🇺 Русский:
-
-1. **Установите Tampermonkey**
-   - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   - [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)
-
-2. **Нажмите на иконку Tampermonkey** → **"Создать новый скрипт"**
-
-3. **Скопируйте код** из файла [`pony-town-script.js`](pony-town-script.js)
-
-4. **Вставьте код** в редактор и **нажмите Ctrl+S**
-
-5. **Зайдите на [pony.town](https://pony.town)** — готово! 🎉
-
-### 🇬🇧 English:
+## 📥 Installation
 
 1. **Install Tampermonkey**
    - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
@@ -55,7 +39,7 @@
 
 ---
 
-## 🛠 Технологии
+## 🛠 Technologies
 
 - JavaScript (Vanilla)
 - Tampermonkey API
@@ -65,17 +49,17 @@
 
 ---
 
-## 📞 Контакты
+## 📞 Contacts
 
-- 📢 **Telegram-канал:** [t.me/PonyPubahi](https://t.me/PonyPubahi)
-- 👤 **Автор:** Pubahi
-
----
-
-## 📄 Лицензия
-
-MIT License — делай что хочешь, только указывай автора!
+- 📢 **Telegram:** [t.me/PonyPubahi](https://t.me/PonyPubahi)
+- 👤 **Author:** Pubahi
 
 ---
 
-🦄 **Pubahi Script v8.0** 
+## 📄 License
+
+MIT License — do whatever you want, just credit the author!
+
+---
+
+🦄 **Pubahi Script v8.0**
