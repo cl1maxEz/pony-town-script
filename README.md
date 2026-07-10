@@ -1,48 +1,81 @@
-# PUBAHI - SCRIPT PONY TOWN
-📥 Как установить Pubahi Script / How to install Pubahi Script
-🇷🇺 Русский:
-Установите Tampermonkey
+# 🦄 Pubahi Script — Pony Town Script
 
-Chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+[![Version](https://img.shields.io/badge/version-8.0-purple)](https://github.com/cl1maxEz/pony-town-script)
+[![Telegram](https://img.shields.io/badge/Telegram-PonyPubahi-blue)](https://t.me/PonyPubahi)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-Firefox: https://addons.mozilla.org/firefox/addon/tampermonkey/
+> 🦄 **Pubahi Script** — мощный скрипт для pony.town с авто-спамом, анти-AFK, поиском по чату и 14 цветовыми темами!
 
-Opera/Edge: Ищите "Tampermonkey" в магазине расширений
+---
 
-Нажмите на иконку Tampermonkey в правом верхнем углу браузера
+## 🔥 Возможности
 
-Выберите "Создать новый скрипт"
+- 🍕 **Авто-спам в чат** — 3 режима скорости (Набор, Медленный, Спам)
+- 💤 **Анти-AFK** — защита от кика с настраиваемым интервалом
+- 🔍 **Поиск по чату** — фильтрация и подсветка сообщений
+- 🎨 **14 цветовых тем** — Радуга, Неон и 12 цветов
+- 💫 **Неоновая подсветка** — светящиеся кнопки
+- 🌈 **Плавная радужная анимация** — переливающиеся цвета
+- 🌐 **Два языка** — Русский и English
+- 👁 **Скрытие интерфейса** — одна кнопка скрывает всё
+- ⚙ **Гибкие настройки** — язык, тема, интервал Анти-AFK
+- 💾 **Сохранение настроек** — всё сохраняется в localStorage
 
-Удалите весь код, который там есть
+---
 
-Скопируйте код скрипта и вставьте в редактор
+## 📥 Установка
 
-Нажмите Ctrl+S (или File → Save)
+### 🇷🇺 Русский:
 
-Зайдите на pony.town — скрипт активируется автоматически!
+1. **Установите Tampermonkey**
+   - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   - [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)
 
-Готово! 🎉 Появится стартовое меню с описанием
+2. **Нажмите на иконку Tampermonkey** → **"Создать новый скрипт"**
 
-🇬🇧 English:
-Install Tampermonkey
+3. **Скопируйте код** из файла [`pony-town-script.js`](pony-town-script.js)
 
-Chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+4. **Вставьте код** в редактор и **нажмите Ctrl+S**
 
-Firefox: https://addons.mozilla.org/firefox/addon/tampermonkey/
+5. **Зайдите на [pony.town](https://pony.town)** — готово! 🎉
 
-Opera/Edge: Search "Tampermonkey" in extensions store
+### 🇬🇧 English:
 
-Click Tampermonkey icon in the top right corner of browser
+1. **Install Tampermonkey**
+   - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   - [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)
 
-Select "Create a new script"
+2. **Click Tampermonkey icon** → **"Create a new script"**
 
-Delete all existing code
+3. **Copy code** from [`pony-town-script.js`](pony-town-script.js)
 
-Copy the script code and paste it into editor
+4. **Paste code** and **press Ctrl+S**
 
-Press Ctrl+S (or File → Save)
+5. **Open [pony.town](https://pony.town)** — done! 🎉
 
-Open pony.town — script will activate automatically!
+---
 
-Done! 🎉 Welcome screen will appear with description
+## 🛠 Технологии
 
+- JavaScript (Vanilla)
+- Tampermonkey API
+- CSS Variables
+- LocalStorage
+- MutationObserver API
+
+---
+
+## 📞 Контакты
+
+- 📢 **Telegram-канал:** [t.me/PonyPubahi](https://t.me/PonyPubahi)
+- 👤 **Автор:** cl1maxEz
+
+---
+
+## 📄 Лицензия
+
+MIT License — делай что хочешь, только указывай автора!
+
+---
+
+🦄 **Pubahi Script v8.0** 
