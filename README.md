@@ -68,7 +68,7 @@
 ## 📞 Контакты
 
 - 📢 **Telegram-канал:** [t.me/PonyPubahi](https://t.me/PonyPubahi)
-- 👤 **Автор:** cl1maxEz
+- 👤 **Автор:** Pubahi
 
 ---
 
