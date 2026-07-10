@@ -31,7 +31,7 @@
 
 2. **Click Tampermonkey icon** → **"Create a new script"**
 
-3. **Copy code** from [`pony-town-script.js`](pony-town-script.js)
+3. **Copy code** from [`Pubahi-script.txt`](Pubahi-script.txt)
 
 4. **Paste code** and **press Ctrl+S**
 
