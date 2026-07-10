@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      8.0
 // @description  Script pony-town
-// @author       cl1maxEz
+// @author       Pubahi
 // @match        https://pony.town/*
 // @icon         https://i.ibb.co/9mLnTZTv/image.png
 // @grant        none
@@ -196,7 +196,6 @@
             currentTheme = theme;
             localStorage.setItem('tg_pony_theme_v11', theme);
             applyTheme();
-            // Обновляем выпадающий список если он открыт
             const themeSelect = document.getElementById('tgSettingTheme');
             if (themeSelect) {
                 themeSelect.value = theme;
@@ -226,7 +225,6 @@
             document.documentElement.style.setProperty('--tg-glow-strong', 'none');
         }
 
-        // Если текущая тема - радуга, запускаем анимацию
         if (currentTheme === 'rainbow') {
             startRainbow();
         } else {
@@ -403,7 +401,6 @@
         const oldPanel = document.getElementById('tgSettingsPanel');
         if (oldPanel) oldPanel.remove();
 
-        // Строим ОПЦИИ с ПРАВИЛЬНЫМ selected
         let themeOptionsHTML = '';
         for (let i = 0; i < themeOrder.length; i++) {
             const key = themeOrder[i];
@@ -573,7 +570,7 @@
             .tg-pony-welcome-lang-btn { background: #374151; color: #9CA3AF; border: 2px solid #4B5563; border-radius: 8px; padding: 8px 16px; font-size: 15px; cursor: pointer; font-family: Arial, sans-serif; transition: all 0.3s ease; }
             .tg-pony-welcome-lang-btn:hover { background: #4B5563; color: #F9FAFB; border-color: #6366F1; box-shadow: 0 0 8px rgba(139, 92, 246, 0.4); transform: scale(1.05); }
             .tg-pony-welcome-lang-btn.active { background: var(--tg-main); color: white; border-color: var(--tg-main); box-shadow: 0 0 12px var(--tg-main-light), 0 0 24px var(--tg-main); }
-            .tg-pony-welcome-tg-link { font-size: 13px; color: var(--tg-main-light); text-decoration: none; margin-bottom: 16px; display: inline-block; transition: all 0.3s; }
+            .tg-pony-welcome-tg-link { font-size: 13px; color: var(--tg-main-light); text-decoration: none; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.3s; }
             .tg-pony-welcome-tg-link:hover { text-decoration: underline; }
             .tg-pony-status-text { font-size: 11px; color: #6B7280; text-align: center; margin-top: 2px; }
             .tg-pony-counter-text { font-size: 10px; color: #10B981; text-align: center; margin-top: 2px; display: none; }
@@ -671,7 +668,8 @@
         modal.innerHTML = `
             <div class="tg-pony-welcome-title">${t.welcomeTitle}</div>
             <div class="tg-pony-welcome-version">${t.welcomeVersion}</div>
-            <a href="https://t.me/PubahiScript" target="_blank" class="tg-pony-welcome-tg-link">📢 t.me/PonyPubahi</a>
+            <a href="https://t.me/PonyPubahi" target="_blank" class="tg-pony-welcome-tg-link">📢 t.me/PonyPubahi</a>
+            <a href="https://github.com/cl1maxEz/pony-town-script" target="_blank" class="tg-pony-welcome-tg-link">📁 github.com/cl1maxEz/pony-town-script</a>
             <div class="tg-pony-welcome-lang-row">
                 <span class="tg-pony-welcome-lang-label">${t.welcomeLangLabel}</span>
                 <button class="tg-pony-welcome-lang-btn ${currentLang === 'ru' ? 'active' : ''}" data-lang="ru">🇷🇺 RU</button>
